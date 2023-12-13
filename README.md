@@ -10,3 +10,11 @@
  - Windows 10 Operating System (Virtual Machines)
  - osTicket
  - Remote Desktop
+
+<h2> List of Prerequisites </h2>
+
+-  osTicket
+-  Item 2
+-  Item 3
+-  Item 4
+-  Item 5
