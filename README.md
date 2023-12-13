@@ -6,7 +6,7 @@
 
  <h2> Materials Used in Demonstration </h2>
 
- -Microsoft Azure (Virtual Machines and Network)
- -Windows 10 Operating System (Virtual Machines)
- -osTicket
- -Remote Desktop
+ - Microsoft Azure (Virtual Machines and Network)
+ - Windows 10 Operating System (Virtual Machines)
+ - osTicket
+ - Remote Desktop
