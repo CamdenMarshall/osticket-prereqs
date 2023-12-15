@@ -34,10 +34,10 @@ Begin with enabling or installing IIS (Internet Information Systems) in Windows
 During install process of this ensure these folders are checked
 (Screenshot the process here)
 
-Download and Install PHP Manager
+<h2>Download and Install PHP Manager</h2>
 (Screenshot Process here)
 
-Download and Install Rewrite Module
+<h2>Download and Install Rewrite Module</h2>
 (Screenshot Process here)
 
 From the install files download PHP 7.3.8 (Outdated files but this method still works)
@@ -46,8 +46,33 @@ From the install files download PHP 7.3.8 (Outdated files but this method still 
 Download and Install Microsoft Visual C++ Redistributable
 (Screenshot this process)
 
-Download and Install MySQL
+<h2>Download and Install MySQL</h2>
 
 You will be asked to configure and setup information. Ensure you can access and properly record your configuration and information during setup.
 (Screenshot this process)
+
+Open IIS as Admin
+
+Register PHP from within IIS
+
+Reload IIS
+
+<h2>Install osTicket</h2>
+-Extract and copy "upload" folder to c:\inetpub\wwwroot
+-Within c:\inetpub\wwwroot, Rename "upload" to "osTicket"
+-Reload IIS
+
+Go to sites -> Default -> osTicket
+-On the right, click "Browse *.80"
+
+Note that some extensions are not enabled by default
+Enable the following folders
+(try to do Screenshots)
+-php_imap.dll
+-php_intl.dll
+-php_opache.dll
+
+<h2>Rename</h2>
+change from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+change to   C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
