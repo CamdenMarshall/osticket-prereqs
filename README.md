@@ -13,6 +13,7 @@
  - IIS (Internet Information Services)
  - Microsoft Redistributable C++
  - PHP Manager
+ - HeidiSQL
 
 <h2> List of Prerequisites </h2>
 
@@ -76,3 +77,24 @@ Enable the following folders
 change from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 change to   C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
+Assign Permissions
+-Disable inheritance > Remove All
+-New Permissions > Everyone > All
+
+Continue osTicket system
+-Name Helpdesk
+-Defauly email (receieves email from customers)
+
+<h2>Download and Install HeidiSQL</h2>
+-Open Heidi SQL
+-Create a new session, root/Password1
+-Connect to the session
+-Create a database called "osTicket"
+
+osTicket Continued
+-MySQL Database: osTicket
+-MySQL Username: root
+-MySQL Password: Password1
+-Click "Install Now!"
+
+<h2>Install Process should be over!</h2>
