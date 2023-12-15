@@ -69,32 +69,38 @@ Go to sites -> Default -> osTicket
 Note that some extensions are not enabled by default
 Enable the following folders
 (try to do Screenshots)
--php_imap.dll
--php_intl.dll
--php_opache.dll
+
+- php_imap.dll
+- php_intl.dll
+- php_opache.dll
 
 <h2>Rename</h2>
 change from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
 change to   C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 Assign Permissions
+
 -Disable inheritance > Remove All
 -New Permissions > Everyone > All
 
 Continue osTicket system
--Name Helpdesk
--Defauly email (receieves email from customers)
+
+- Name Helpdesk
+- Defauly email (receieves email from customers)
 
 <h2>Download and Install HeidiSQL</h2>
--Open Heidi SQL
--Create a new session, root/Password1
--Connect to the session
--Create a database called "osTicket"
 
-osTicket Continued
--MySQL Database: osTicket
--MySQL Username: root
--MySQL Password: Password1
--Click "Install Now!"
+-  Open Heidi SQL
+-  Create a new session, root/Password1
+-  Connect to the session
+-  Create a database called "osTicket"
+
+<h2>osTicket Continued</h2>
+
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: Password1
+- Click "Install Now!"
 
 <h2>Install Process should be over!</h2>
