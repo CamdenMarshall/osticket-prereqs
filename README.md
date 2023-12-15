@@ -10,9 +10,20 @@
  - Windows 10 Operating System (Virtual Machines)
  - osTicket
  - Remote Desktop
+ - IIS (Internet Information Services)
+ - Microsoft Redistributable C++
+ - PHP Manager
 
 <h2> List of Prerequisites </h2>
 
 -  osTicket
 -  Windows 10
--  
+-  Remote Desktop
+-  Internet Information Services
+-  PHP Manager
+-  Rewrite Module
+-  Microsoft Visual C++ Redistributable
+-  MySQL Server
+
+<h2>Installation Process</h2>
+
