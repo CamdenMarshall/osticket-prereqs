@@ -27,3 +27,27 @@
 
 <h2>Installation Process</h2>
 
+Step one is to create the virtual machines and virtual network within Azure
+
+Step two is to download all material needed to install osTicket
+Begin with enabling or installing IIS (Internet Information Systems) in Windows
+During install process of this ensure these folders are checked
+(Screenshot the process here)
+
+Download and Install PHP Manager
+(Screenshot Process here)
+
+Download and Install Rewrite Module
+(Screenshot Process here)
+
+From the install files download PHP 7.3.8 (Outdated files but this method still works)
+(Screenshot this process)
+
+Download and Install Microsoft Visual C++ Redistributable
+(Screenshot this process)
+
+Download and Install MySQL
+
+You will be asked to configure and setup information. Ensure you can access and properly record your configuration and information during setup.
+(Screenshot this process)
+
