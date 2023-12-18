@@ -85,8 +85,34 @@ Click "Install" and once it is finished click "Close"
 
 <h2>Download and Install MySQL</h2>
 
-You will be asked to configure and setup information. Ensure you can access and properly record your configuration and information during setup.
-(Screenshot this process)
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/957591f3-5e44-4ca2-be2b-ffc52533e51f)
+
+Once you are ready to install MySQL click "Next" and on the next page click the checkbox "I accept the terms..." and hit "Next"
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/db574e7f-5242-4202-9f07-15ff6b38591c)
+
+Click to do a "Typical" install and then click "Install"
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/1ee70b34-73c1-4fd9-90c2-d576d49869d9)
+
+
+Once you click "Finish" you will be asked to configure and setup information. Ensure you can access and properly record your configuration and information during setup. Click for a Standard Configuration
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a2cd725d-57eb-41ab-a591-541cf70dbf10)
+
+For the next page leave it as it is
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/75201d91-f9b7-4c60-b588-5a4d1b46353a)
+
+This last page contains the part of information to record. The password can be whatever you deem it to be and the username associated with this is default "root"
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/68e3ad26-b360-4082-866f-686a74da1195)
+
+Then hit Execute to let it run
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/901d83a8-da02-49dc-952b-d72b69f34a51)
+
+
 
 Open IIS as Admin
 
