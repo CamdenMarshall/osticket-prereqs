@@ -31,8 +31,8 @@
 Step one is to create the virtual machines and virtual network within Azure
 
 Step two is to download all material needed to install osTicket
-Begin with enabling or installing IIS (Internet Information Systems) in Windows
-During install process of this ensure these folders are checked
+Begin with enabling or installing IIS (Internet Information Systems) in Windows.
+During the install process of this ensure these folders are checked
 (Screenshot the process here)
 
 <h2>Download and Install PHP Manager</h2>
