@@ -113,50 +113,105 @@ Then hit Execute to let it run
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/901d83a8-da02-49dc-952b-d72b69f34a51)
 
 
+<h2>Register PHP through IIS</h2>
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a2606f72-bb65-4d69-b907-1778894f0a17)
 
 Open IIS as Admin
 
-Register PHP from within IIS
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/420306d5-48a5-49d7-84e1-1c50a96d4f16)
 
-Reload IIS
+Register PHP from within IIS. Double click PHP Manager to get inside it once there click on "Register new PHP version"
+When prompted route it to the PHP file made under the C: drive and look for the PHP CGI file
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/f456f98d-8566-4826-acb6-01a0106a042b)
+
+Reload IIS by clicking on the name of the program in the left bar and finding "Restart" on the right side of the IIS box
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a703531a-67d1-43fc-acf8-344318202fa2)
+
 
 <h2>Install osTicket</h2>
--Extract and copy "upload" folder to c:\inetpub\wwwroot
--Within c:\inetpub\wwwroot, Rename "upload" to "osTicket"
--Reload IIS
 
-Go to sites -> Default -> osTicket
--On the right, click "Browse *.80"
+- Extract and copy "upload" folder to c:\inetpub\wwwroot
+- Within c:\inetpub\wwwroot, Rename "upload" to "osTicket"
+- Reload IIS
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/2ca42d38-f094-46bd-903e-833365e0bc6c)
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/fad7c2c9-07e4-4efb-8e0f-3f3a91a61ba4)
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/5fddf49d-82e9-4f29-988a-e41c86610a5e)
+
+- Once finished Restart IIS once again
+- Go to sites -> Default -> osTicket
+- On the right, click "Browse *.80"
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a614f99c-163d-4a49-b22a-b6da8088a5eb)
+
+If it has worked properly you should see this screen
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/50926a6e-3adf-4212-b2c8-276a8114bfb2)
+
 
 Note that some extensions are not enabled by default
-Enable the following folders
-(try to do Screenshots)
+Enable the following folders in IIS by clicking the PHP Manager
 
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/de90e269-6cd1-4d87-bbd4-a911d5db9c63)
+
+Once on this screen under the PHP Extensions section click on on Enable or disable extensions and enable the following extensions
 - php_imap.dll
 - php_intl.dll
 - php_opache.dll
 
+Once they are enabled go back to your browser with osTicket and Refresh the page. There should be more green features than previously.
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/ca8f029d-efa4-4c2a-97fa-95c823f573ec)
+
+
 <h2>Rename</h2>
+Next is to change file names inside of the osTicket folder that was copied over to the wwwwroot folder
+
 change from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a9af74ae-eaa0-4266-917a-080567e2014a)
+
 
 change to   C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-Assign Permissions
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/843f7136-0c0f-4821-bcea-c04983bd8c09)
 
--Disable inheritance > Remove All
--New Permissions > Everyone > All
+Next is to assign permissions to that file
 
-Continue osTicket system
+- Right click on ost-config.php and select properties
+- Click the Security tab up top
+- Then click advanced
+- Click Disable inheritance
+- Remove all permissions
+- Click Add
+- Click Select a principal
+- Type in "everyone" and click check names then click OK
+- Click "Full control" then hit OK
+- Then click Apply after that click OK and then click OK again
 
-- Name Helpdesk
-- Defauly email (receieves email from customers)
+
+<h2>Continue osTicket system</h2>
+Continuing in the web browser setup of osTicket. Click "Continue" on the bottom of the page
+This section can be setup as desired but ensure that the information is saved for later use
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/d539de7f-a92d-4d2f-93c0-3bec50d8a294)
+
+Once the two sections are entered the Database Settings section on the bottom will wait until Heidi SQL is installed
 
 <h2>Download and Install HeidiSQL</h2>
 
 -  Open Heidi SQL
+-  Click OK through everything and ensure it will launch once finished installing
 -  Create a new session, root/Password1
 -  Connect to the session
 -  Create a database called "osTicket"
+
+
 
 <h2>osTicket Continued</h2>
 
