@@ -211,13 +211,54 @@ Once the two sections are entered the Database Settings section on the bottom wi
 -  Connect to the session
 -  Create a database called "osTicket"
 
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/af60ba2d-370d-4f13-8a64-fb71bd5d2ac2)
+
+Once logged in you will see
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/59c8835f-7f04-4460-bbea-878245071bd2)
+
+- Right Click Unnamed at the top left of the Heidi SQL box and select Create New/Database
+- Name the new Database osTicket and then click OK
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/92ecb165-9c79-4793-8a9f-6323769ce7c9)
+
 
 
 <h2>osTicket Continued</h2>
+Back on the webpage of osTicket finish filling out the Database Settings section
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/33ee6b25-ec82-4eca-8b3c-c0ea657b6bfc)
+
 
 - MySQL Database: osTicket
 - MySQL Username: root
-- MySQL Password: Password1
+- MySQL Password: password1
 - Click "Install Now!"
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/926d8e39-1d1c-43bf-ab3c-8acd4417d9c6)
+
+
+<h2>Cleanup Process</h2>
+
+- Delete the "setup" folder within the osTicket folder under wwwroot folde
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/37b9bf0a-bba4-4255-829d-9ca607aee227)
+
+- Then go into the include folder under the same section of osTicket
+- Change the permissions of the ost-config.php file back to "Read Only"
+- Right click the file and select properties
+- Click the security tab and click Advanced
+- Select Everyone and then click Edit
+- Change Read & Execute and Read to the only permissions checked
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/5bdb705e-74fb-4788-8b95-e3efa2318861)
+
+- Click Ok then click Apply
+- Click the link on the Webpage for Staff login on the osTicket page and attempt to login as admin
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4e0409aa-b23a-47bc-924c-89024a2ac973)
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/e0204cc0-ab2e-4c56-bcda-5c045319102f)
+
 
 <h2>Install Process should be over!</h2>
