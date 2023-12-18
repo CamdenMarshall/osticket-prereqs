@@ -30,21 +30,54 @@
 
 Step one is to create the virtual machines and virtual network within Azure
 
-Step two is to download all material needed to install osTicket
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/7bdff5a9-f0da-4e21-a369-01e6c4c38b02)
+
+
+Step two is to download all material needed to install osTicket or Remote Desktop in to download the materials
 Begin with enabling or installing IIS (Internet Information Systems) in Windows.
 During the install process of this ensure these folders are checked
-(Screenshot the process here)
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4d102372-8387-4a18-9c13-62e3c3930eb5)
 
-<h2>Download and Install PHP Manager</h2>
-(Screenshot Process here)
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/6aebaead-9d40-4518-875d-9dc4e123b6a8)
+
+Then hit the expand button on World Wide Web Services 
+Then expand Application Development Features and ensure that CGI is enabled
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a3501fe5-f7b2-4095-bb52-518e3cda15f2)
+
+Then expand Common HTTP Features and enable all check boxes
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4a12df17-2a09-48ef-a340-ab88314fbf0b)
+
+After all the boxes are checked click "ok" and it will begin a download and apply the changes.
+To ensure that it is installed and functioning go to a web browser and enter "127.0.0.1" into the search bar
+If installed properly you will see this page
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/d9df5bac-aee0-482a-8fc6-77e29cdd73f5)
+
+
+<h2>Download and Install PHP Manager for IIS</h2>
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/70ea7023-04b8-4ea6-b194-acd5dd8e532e)
+Click "Next" and then ensure "I Agree" is checked and then click "Next" again. A download should have started and once it is finished click "Close" and the download is finished.
 
 <h2>Download and Install Rewrite Module</h2>
-(Screenshot Process here)
 
-From the install files download PHP 7.3.8 (Outdated files but this method still works)
-(Screenshot this process)
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/48aa5a17-ae13-4d38-9cf7-2d1d71480538)
 
-Download and Install Microsoft Visual C++ Redistributable
+Click "Install" and once that is complete click "Finish" and Rewrite is installed
+
+<h2>Creating a PHP File and Downloading PHP</h2>
+
+Go to the C: drive on your computer and create a file Named PHP
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/438adae4-4759-490f-9198-df35f950d329)
+
+When PHP is downloaded it will be in a zip file. Right click it and hit "Extract all" and extract the files to the newly created PHP file on the C: drive.
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4f81fbee-b517-4025-9af5-d0f1aeaaea81)
+
+
+<h2>Download and Install Microsoft Visual C++ Redistributable</h2>
 (Screenshot this process)
 
 <h2>Download and Install MySQL</h2>
