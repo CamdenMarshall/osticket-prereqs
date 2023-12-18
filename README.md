@@ -78,7 +78,10 @@ When PHP is downloaded it will be in a zip file. Right click it and hit "Extract
 
 
 <h2>Download and Install Microsoft Visual C++ Redistributable</h2>
-(Screenshot this process)
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/2f89b9a9-88d4-4f41-a301-b018aab972e1)
+
+Click "Install" and once it is finished click "Close"
 
 <h2>Download and Install MySQL</h2>
 
