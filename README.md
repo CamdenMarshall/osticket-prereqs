@@ -251,13 +251,13 @@ Back on the webpage of osTicket finish filling out the Database Settings section
 - Then go into the include folder under the same section of osTicket
 - Change the permissions of the ost-config.php file back to "Read Only"
 - Right click the file and select properties
-- Click the security tab and click Advanced
+- Click the security tab and then select Advanced
 - Select Everyone and then click Edit
 - Change Read & Execute and Read to the only permissions checked
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/5bdb705e-74fb-4788-8b95-e3efa2318861)
 
-- Click Ok then click Apply
+- Click Ok and then Apply
 - Click the link on the Webpage for Staff login on the osTicket page and attempt to login as admin
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4e0409aa-b23a-47bc-924c-89024a2ac973)
@@ -265,4 +265,4 @@ Back on the webpage of osTicket finish filling out the Database Settings section
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/e0204cc0-ab2e-4c56-bcda-5c045319102f)
 
 
-<h2>Install Process should be over!</h2>
+<h2>Install Process is over!</h2>
