@@ -55,20 +55,23 @@ Then expand Common HTTP Features and enable all check boxes
 
 After all the boxes are checked click "ok" and it will begin a download and apply the changes.
 To ensure that it is installed and functioning go to a web browser and enter "127.0.0.1" into the search bar
+
 If installed properly you will see this page
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/d9df5bac-aee0-482a-8fc6-77e29cdd73f5)
 
 
 <h2>Download and Install PHP Manager for IIS</h2>
 
+Click "Next" and then ensure "I Agree" is checked and then hit "Next" again. A download should have started and once it is finished select "Close" and the download is finished.
+
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/70ea7023-04b8-4ea6-b194-acd5dd8e532e)
-Click "Next" and then ensure "I Agree" is checked and then click "Next" again. A download should have started and once it is finished click "Close" and the download is finished.
 
 <h2>Download and Install Rewrite Module</h2>
 
+Click "Install" and once that is complete select "Finish" and Rewrite is installed
+
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/48aa5a17-ae13-4d38-9cf7-2d1d71480538)
 
-Click "Install" and once that is complete click "Finish" and Rewrite is installed
 
 <h2>Creating a PHP File and Downloading PHP</h2>
 
@@ -83,24 +86,25 @@ When PHP is downloaded it will be in a zip file. Right click it and hit "Extract
 
 <h2>Download and Install Microsoft Visual C++ Redistributable</h2>
 
+Click "Install" and once it is finished hit "Close"
+
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/2f89b9a9-88d4-4f41-a301-b018aab972e1)
 
-Click "Install" and once it is finished click "Close"
 
 <h2>Download and Install MySQL</h2>
 
+Once you are ready to install MySQL click "Next" and on the next page check the checkbox "I accept the terms..." and hit "Next"
+
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/957591f3-5e44-4ca2-be2b-ffc52533e51f)
 
-Once you are ready to install MySQL click "Next" and on the next page click the checkbox "I accept the terms..." and hit "Next"
+Check to do a "Typical" install and then click "Install"
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/db574e7f-5242-4202-9f07-15ff6b38591c)
 
-Click to do a "Typical" install and then click "Install"
+Once you click "Finish" you will be asked to configure and setup information. Ensure you can properly record your configuration and information during setup. Check for a Standard Configuration
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/1ee70b34-73c1-4fd9-90c2-d576d49869d9)
 
-
-Once you click "Finish" you will be asked to configure and setup information. Ensure you can access and properly record your configuration and information during setup. Click for a Standard Configuration
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a2cd725d-57eb-41ab-a591-541cf70dbf10)
 
@@ -108,7 +112,7 @@ For the next page leave it as it is
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/75201d91-f9b7-4c60-b588-5a4d1b46353a)
 
-This last page contains the part of information to record. The password can be whatever you deem it to be and the username associated with this is default "root"
+This last page contains the part of information to record. The password can be whatever you deem it to be and the username associated with this is by default "root"
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/68e3ad26-b360-4082-866f-686a74da1195)
 
@@ -119,18 +123,21 @@ Then hit Execute to let it run
 
 <h2>Register PHP through IIS</h2>
 
+Open IIS as Admin
+
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a2606f72-bb65-4d69-b907-1778894f0a17)
 
-Open IIS as Admin
+- Register PHP from within IIS
+- Double click PHP Manager to get inside it
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/420306d5-48a5-49d7-84e1-1c50a96d4f16)
 
-Register PHP from within IIS. Double click PHP Manager to get inside it once there click on "Register new PHP version"
-When prompted route it to the PHP file made under the C: drive and look for the PHP CGI file
+- Once there select "Register new PHP version"
+- When prompted route it to the PHP file made under the C: drive and look for the PHP CGI file
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/f456f98d-8566-4826-acb6-01a0106a042b)
 
-Reload IIS by clicking on the name of the program in the left bar and finding "Restart" on the right side of the IIS box
+- Reload IIS by clicking on the name of the program in the left bar and finding "Restart" on the right side of the IIS box
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a703531a-67d1-43fc-acf8-344318202fa2)
 
@@ -148,7 +155,9 @@ Reload IIS by clicking on the name of the program in the left bar and finding "R
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/5fddf49d-82e9-4f29-988a-e41c86610a5e)
 
 - Once finished Restart IIS once again
-- Go to sites -> Default -> osTicket
+- Go to sites and open the drop down to see Default Web Site
+- Hit the drop down button Default Web Site
+- Select osTicket
 - On the right, click "Browse *.80"
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a614f99c-163d-4a49-b22a-b6da8088a5eb)
@@ -161,29 +170,28 @@ If it has worked properly you should see this screen
 Note that some extensions are not enabled by default
 Enable the following folders in IIS by clicking the PHP Manager
 
-![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/de90e269-6cd1-4d87-bbd4-a911d5db9c63)
-
 Once on this screen under the PHP Extensions section click on on Enable or disable extensions and enable the following extensions
 - php_imap.dll
 - php_intl.dll
 - php_opache.dll
 
-Once they are enabled go back to your browser with osTicket and Refresh the page. There should be more green features than previously.
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/de90e269-6cd1-4d87-bbd4-a911d5db9c63)
+
+As they are enabled go back to your browser with osTicket and Refresh the page. There should be more green features than previously.
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/ca8f029d-efa4-4c2a-97fa-95c823f573ec)
 
 
 <h2>Rename</h2>
-Next is to change file names inside of the osTicket folder that was copied over to the wwwwroot folder
+Next is to change file names inside of the osTicket folder within the wwwwroot folder
 
-change from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+- change from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+- change to   C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/a9af74ae-eaa0-4266-917a-080567e2014a)
 
-
-change to   C:\inetpub\wwwroot\osTicket\include\ost-config.php
-
-![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/843f7136-0c0f-4821-bcea-c04983bd8c09)
+It should be named like this now
 
 Next is to assign permissions to that file
 
@@ -198,14 +206,19 @@ Next is to assign permissions to that file
 - Click "Full control" then hit OK
 - Then click Apply after that click OK and then click OK again
 
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/843f7136-0c0f-4821-bcea-c04983bd8c09)
+
+
 
 <h2>Continue osTicket system</h2>
-Continuing in the web browser setup of osTicket. Click "Continue" on the bottom of the page
+Continuing in the web browser setup of osTicket. Hit "Continue" on the bottom of the page
+
 This section can be setup as desired but ensure that the information is saved for later use
+
+Once the two sections are entered the Database Settings section on the bottom will wait until Heidi SQL is installed
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/d539de7f-a92d-4d2f-93c0-3bec50d8a294)
 
-Once the two sections are entered the Database Settings section on the bottom will wait until Heidi SQL is installed
 
 <h2>Download and Install HeidiSQL</h2>
 
@@ -217,7 +230,7 @@ Once the two sections are entered the Database Settings section on the bottom wi
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/af60ba2d-370d-4f13-8a64-fb71bd5d2ac2)
 
-Once logged in you will see
+Once logged in you will see the following
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/59c8835f-7f04-4460-bbea-878245071bd2)
 
@@ -231,23 +244,21 @@ Once logged in you will see
 <h2>osTicket Continued</h2>
 Back on the webpage of osTicket finish filling out the Database Settings section
 
-![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/33ee6b25-ec82-4eca-8b3c-c0ea657b6bfc)
-
-
 - MySQL Database: osTicket
 - MySQL Username: root
 - MySQL Password: password1
 - Click "Install Now!"
+
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/33ee6b25-ec82-4eca-8b3c-c0ea657b6bfc)
+
+
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/926d8e39-1d1c-43bf-ab3c-8acd4417d9c6)
 
 
 <h2>Cleanup Process</h2>
 
-- Delete the "setup" folder within the osTicket folder under wwwroot folde
-
-![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/37b9bf0a-bba4-4255-829d-9ca607aee227)
-
+- Delete the "setup" folder within the osTicket folder under wwwroot folder
 - Then go into the include folder under the same section of osTicket
 - Change the permissions of the ost-config.php file back to "Read Only"
 - Right click the file and select properties
@@ -255,9 +266,12 @@ Back on the webpage of osTicket finish filling out the Database Settings section
 - Select Everyone and then click Edit
 - Change Read & Execute and Read to the only permissions checked
 
+![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/37b9bf0a-bba4-4255-829d-9ca607aee227)
+
+
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/5bdb705e-74fb-4788-8b95-e3efa2318861)
 
-- Click Ok and then Apply
+- Select Ok and then Apply
 - Click the link on the Webpage for Staff login on the osTicket page and attempt to login as admin
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4e0409aa-b23a-47bc-924c-89024a2ac973)
