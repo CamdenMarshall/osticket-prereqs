@@ -28,12 +28,14 @@
 
 <h2>Installation Process</h2>
 
-Step one is to create the virtual machines and virtual network within Azure
+Step one is to create the virtual machines within Azure
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/7bdff5a9-f0da-4e21-a369-01e6c4c38b02)
 
 
-Step two is to download all material needed to install osTicket or Remote Desktop in to download the materials
+Step two is to download all material needed to install osTicket or Remote Desktop in to the computer to download the materials
+
+
 Begin with enabling or installing IIS (Internet Information Systems) in Windows.
 During the install process of this ensure these folders are checked
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4d102372-8387-4a18-9c13-62e3c3930eb5)
