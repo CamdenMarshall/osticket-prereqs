@@ -28,17 +28,19 @@
 
 <h2>Installation Process</h2>
 
-
+<p>
 Step one is to download all material needed to install osTicket or Remote Desktop in to the computer to download the materials
 
 
 Begin with enabling or installing IIS (Internet Information Systems) in Windows.
-
+</p>
+<p>
 During the install process of this ensure these folders are checked
-![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4d102372-8387-4a18-9c13-62e3c3930eb5)
+
+ ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/4d102372-8387-4a18-9c13-62e3c3930eb5)
 
 ![image](https://github.com/CamdenMarshall/osticket-prereqs/assets/153537343/6aebaead-9d40-4518-875d-9dc4e123b6a8)
-
+</p>
 Then hit the expand button on World Wide Web Services
 
 Then expand Application Development Features and ensure that CGI is enabled
